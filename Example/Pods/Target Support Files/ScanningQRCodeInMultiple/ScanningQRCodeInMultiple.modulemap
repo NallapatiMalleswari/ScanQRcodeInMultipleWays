@@ -1,0 +1,6 @@
+framework module ScanningQRCodeInMultiple {
+  umbrella header "ScanningQRCodeInMultiple-umbrella.h"
+
+  export *
+  module * { export * }
+}

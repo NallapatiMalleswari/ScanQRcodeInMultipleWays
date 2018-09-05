@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4AF670DBEC6DA1ED6A529998 /* Pods_ScanningQRCodeInMultiple_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB3B25E74FFA5486833B1B /* Pods_ScanningQRCodeInMultiple_Tests.framework */; };
+		5450F945213FB9A3007FBDA9 /* QRcodeScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F942213FB9A3007FBDA9 /* QRcodeScannerController.swift */; };
+		5450F946213FB9A3007FBDA9 /* SelectQRcodeFromGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F943213FB9A3007FBDA9 /* SelectQRcodeFromGallery.swift */; };
+		5450F947213FB9A3007FBDA9 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F944213FB9A3007FBDA9 /* SquareView.swift */; };
+		5450F949213FBBFB007FBDA9 /* CustomPopUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F948213FBBFB007FBDA9 /* CustomPopUP.swift */; };
+		5450F954213FBDD3007FBDA9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F94D213FBDD2007FBDA9 /* UIColor.swift */; };
+		5450F955213FBDD3007FBDA9 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F94E213FBDD2007FBDA9 /* Extentions.swift */; };
+		5450F956213FBDD3007FBDA9 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F94F213FBDD2007FBDA9 /* FontExtension.swift */; };
+		5450F958213FBDD3007FBDA9 /* UILabel+BoldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F951213FBDD2007FBDA9 /* UILabel+BoldText.swift */; };
+		5450F959213FBDD3007FBDA9 /* ViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F952213FBDD2007FBDA9 /* ViewAnimations.swift */; };
+		5450F95A213FBDD3007FBDA9 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450F953213FBDD2007FBDA9 /* ViewUtils.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,7 +39,17 @@
 
 /* Begin PBXFileReference section */
 		01FB3B25E74FFA5486833B1B /* Pods_ScanningQRCodeInMultiple_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanningQRCodeInMultiple_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47DF071E63AF6C74FABDE735 /* ScanningQRCodeInMultiple.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ScanningQRCodeInMultiple.podspec; path = ../ScanningQRCodeInMultiple.podspec; sourceTree = "<group>"; };
+		47DF071E63AF6C74FABDE735 /* ScanningQRCodeInMultiple.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScanningQRCodeInMultiple.podspec; path = ../ScanningQRCodeInMultiple.podspec; sourceTree = "<group>"; };
+		5450F942213FB9A3007FBDA9 /* QRcodeScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeScannerController.swift; sourceTree = "<group>"; };
+		5450F943213FB9A3007FBDA9 /* SelectQRcodeFromGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectQRcodeFromGallery.swift; sourceTree = "<group>"; };
+		5450F944213FB9A3007FBDA9 /* SquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		5450F948213FBBFB007FBDA9 /* CustomPopUP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPopUP.swift; sourceTree = "<group>"; };
+		5450F94D213FBDD2007FBDA9 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5450F94E213FBDD2007FBDA9 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		5450F94F213FBDD2007FBDA9 /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		5450F951213FBDD2007FBDA9 /* UILabel+BoldText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+BoldText.swift"; sourceTree = "<group>"; };
+		5450F952213FBDD2007FBDA9 /* ViewAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAnimations.swift; sourceTree = "<group>"; };
+		5450F953213FBDD2007FBDA9 /* ViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
 		5CB014BCE49AF3E38D733C75 /* Pods-ScanningQRCodeInMultiple_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanningQRCodeInMultiple_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanningQRCodeInMultiple_Tests/Pods-ScanningQRCodeInMultiple_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ScanningQRCodeInMultiple_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanningQRCodeInMultiple_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +65,8 @@
 		881C295C07F0C2CD91A526A3 /* Pods-ScanningQRCodeInMultiple_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanningQRCodeInMultiple_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanningQRCodeInMultiple_Example/Pods-ScanningQRCodeInMultiple_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D069D011F31F4AB120A5A0C /* Pods_ScanningQRCodeInMultiple_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanningQRCodeInMultiple_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC786AFC090F8E864D75B6BF /* Pods-ScanningQRCodeInMultiple_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanningQRCodeInMultiple_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanningQRCodeInMultiple_Tests/Pods-ScanningQRCodeInMultiple_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CCDB44BC191F31BFCC0BEE20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F387B5EEE6FC311686763BD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CCDB44BC191F31BFCC0BEE20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F387B5EEE6FC311686763BD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +100,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5450F941213FB9A3007FBDA9 /* QRCodeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5450F942213FB9A3007FBDA9 /* QRcodeScannerController.swift */,
+				5450F943213FB9A3007FBDA9 /* SelectQRcodeFromGallery.swift */,
+				5450F944213FB9A3007FBDA9 /* SquareView.swift */,
+			);
+			path = QRCodeClasses;
+			sourceTree = "<group>";
+		};
+		5450F94C213FBDD2007FBDA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5450F94D213FBDD2007FBDA9 /* UIColor.swift */,
+				5450F94E213FBDD2007FBDA9 /* Extentions.swift */,
+				5450F94F213FBDD2007FBDA9 /* FontExtension.swift */,
+				5450F951213FBDD2007FBDA9 /* UILabel+BoldText.swift */,
+				5450F952213FBDD2007FBDA9 /* ViewAnimations.swift */,
+				5450F953213FBDD2007FBDA9 /* ViewUtils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +149,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				5450F948213FBBFB007FBDA9 /* CustomPopUP.swift */,
+				5450F94C213FBDD2007FBDA9 /* Extensions */,
+				5450F941213FB9A3007FBDA9 /* QRCodeClasses */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -215,11 +261,15 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W3C9BD2TD6;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W3C9BD2TD6;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -373,8 +423,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5450F95A213FBDD3007FBDA9 /* ViewUtils.swift in Sources */,
+				5450F958213FBDD3007FBDA9 /* UILabel+BoldText.swift in Sources */,
+				5450F956213FBDD3007FBDA9 /* FontExtension.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				5450F959213FBDD3007FBDA9 /* ViewAnimations.swift in Sources */,
+				5450F954213FBDD3007FBDA9 /* UIColor.swift in Sources */,
+				5450F947213FB9A3007FBDA9 /* SquareView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				5450F946213FB9A3007FBDA9 /* SelectQRcodeFromGallery.swift in Sources */,
+				5450F945213FB9A3007FBDA9 /* QRcodeScannerController.swift in Sources */,
+				5450F949213FBBFB007FBDA9 /* CustomPopUP.swift in Sources */,
+				5450F955213FBDD3007FBDA9 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +524,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.4;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -509,7 +569,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.4;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -520,13 +580,19 @@
 			baseConfigurationReference = 6964E2838C504863C9D819A5 /* Pods-ScanningQRCodeInMultiple_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
 				INFOPLIST_FILE = ScanningQRCodeInMultiple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 			};
 			name = Debug;
 		};
@@ -535,13 +601,18 @@
 			baseConfigurationReference = 881C295C07F0C2CD91A526A3 /* Pods-ScanningQRCodeInMultiple_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
 				INFOPLIST_FILE = ScanningQRCodeInMultiple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 			};
 			name = Release;
 		};
@@ -549,6 +620,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CB014BCE49AF3E38D733C75 /* Pods-ScanningQRCodeInMultiple_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -561,6 +636,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanningQRCodeInMultiple_Example.app/ScanningQRCodeInMultiple_Example";
@@ -571,6 +647,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC786AFC090F8E864D75B6BF /* Pods-ScanningQRCodeInMultiple_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -579,6 +659,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanningQRCodeInMultiple_Example.app/ScanningQRCodeInMultiple_Example";

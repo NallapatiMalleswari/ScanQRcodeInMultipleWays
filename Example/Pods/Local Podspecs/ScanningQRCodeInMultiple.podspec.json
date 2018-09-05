@@ -1,0 +1,22 @@
+{
+  "name": "ScanningQRCodeInMultiple",
+  "version": "0.1.0",
+  "summary": "A short description of ScanningQRCodeInMultiple.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NallapatiMalleswari/ScanningQRCodeInMultiple",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NallapatiMalleswari": "malleswari.iossoft@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/NallapatiMalleswari/ScanningQRCodeInMultiple.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ScanningQRCodeInMultiple/Classes/**/*"
+}
